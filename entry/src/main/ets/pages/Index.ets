@@ -1,4 +1,15 @@
-import { ActionBar, MenuType } from '@abner/bar'
+import { ActionBar, MenuType, TitleLayout } from '@abner/bar'
+
+@Component
+struct TestPage {
+  build() {
+    TitleLayout({
+      title: "我是标题"
+    }) {
+      //任意组件
+    }
+  }
+}
 
 @Entry
 @Component

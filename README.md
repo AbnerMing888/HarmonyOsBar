@@ -4,9 +4,9 @@
 
 ## 开发环境
 
-DevEco Studio NEXT Developer Beta1,Build Version: 5.0.3.706
+DevEco Studio NEXT Developer Beta1,Build Version: 5.0.3.900
 
-Api版本：**11**
+Api版本：**12**
 
 modelVersion：5.0.0
 
@@ -15,7 +15,7 @@ modelVersion：5.0.0
 方式一：在需要Module中的oh-package.json5中设置三方包依赖，配置示例如下：
 
 ```
-"dependencies": { "@abner/bar": "^1.0.0"}
+"dependencies": { "@abner/bar": "^1.0.1"}
 ```
 
 方式二：在Terminal窗口中，执行如下命令安装三方包，DevEco Studio会自动在工程的oh-package.json5中自动添加三方包依赖。
